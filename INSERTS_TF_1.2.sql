@@ -59,3 +59,39 @@ values (2056,500,'2018/10/17','2018/11/17',80,'Clase de Halterofilia'),
        (2835,2200,'2019/01/18','2019/01/29',1120,'Demostracion de Halterofilia'),
        (0525,1800,'2019/05/08','2019/06/08',325,'Clase de Zumba'),
        (5260,30000,'2020/01/20','2020/01/29',5000,'Beneficios plan Black');
+
+insert into Plataforma
+values (1,'Instagram'),
+       (2,'Facebook'),
+       (3,'Facebook Messenger'),
+       (4,'Youtube'),
+       (5,'Twitter ');
+
+insert into TipoPublicidad
+values (1,'Recorrido'),
+       (2,'Demostracion'),
+       (3,'Clase'),
+       (4,'Beneficios');
+
+insert into VirtualCamp
+values (2505,1),
+       (7552, 1),
+       (2835, 2),
+       (5260,4);
+
+INSERT INTO VirtualPlataforma
+VALUES (2505,1),
+       (2505,4),
+       (7552, 4),
+       (2835, 3),
+       (2835, 5),
+       (5260,1),
+        (5260,2),
+        (5260,3),
+        (5260,4),
+        (5260,5);
+
+INSERT INTO PresencialCamp
+values (2056,54241,70675089),
+       (2545,87455,02154637),
+       (0525,52042,20124536);
