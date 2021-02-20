@@ -191,3 +191,75 @@ values (3334,2),
        (5260,2);
 
 
+insert into Marca
+values (18795, 'MET-RX'),
+(14789,'LABNUTRITION USA'),
+(35210,'MUSCLETECH'),
+(98751,'CELLUCOR'),
+(55460,'ECO LAND'),
+(60419,'GU'),
+(70351,'SOLGAR'),
+(24753,'PURELY INSPIRED'),
+(46522,'ONE'),
+(81837,'POWERCRUNCH'),
+(63240,'Muscle Meds'),
+(47200,'FIZZIQUE'),
+(50192,'IWON'),
+(94675,'RED BULL'),
+(20345,'PURE PROTEIN'),
+(73601,'SMARTSHAKE'),
+(38504,'LAKANTO'),
+(19782,'ON'),
+(85600,'Universe Nutrition');
+
+insert into Modelo
+values (111,'100% Whey gold', 35210),
+       (112,'Whey gold',35210),
+       (113,'Cell-Tech',35210),
+       (114,'Creature',35210),
+       (115,'Alpha Test', 35210),
+       (116,'Isolate', 14789),
+       (117,'Whey',14789 ),
+       (118, 'Ultramyosyn Whey', 18795),
+       (119,'BCAA 5000',18795),
+       (200,'C4 Sport', 98751),
+       (201,'Performance Gainer', 98751),
+       (202,'Carnivor', 63240),
+       (203,'Carnivor Mass' ,63240),
+       (204,'Gold Standard', 19782),
+       (205, 'Serius Mass', 19782),
+       (206, 'BigM', 85600);
+
+insert into Categoria
+values (1,'Suplementos'),
+       (2, 'Implementos');
+
+insert into SubCategoria
+values (111,'Proteinas',1),
+       (112,'Creatinas',1),
+       (113,'Aminoacidos Ramificados', 1),
+       (114,'Pre-Workout',1),
+       (115, 'Mass-Gainer', 1),
+       (116,'Impulsador de testosterona', 1);
+insert into SubCategoria
+values (221,'Guantes', '2'),
+       (222,'Cinturon',2),
+       (223,'Toalla',2);
+
+insert into Producto
+values (1111,'Nitro Tech',300,112,111),
+       (1112,'Nitro Tech 100% Whey Gold',270,111,111),
+       (113,'Cell-Tech Hyper Build',250,113,112),
+       (114,'Creactor HCI',120,114,112),
+       (115,'Alpha Test Pro',380,115,116),
+       (116,'Hydrolized Protein',325,116 ,111),
+       (117,'Premium Whey Protein',180,117,111),
+       (118,'Ultra Whey Protein',150,118,111),
+       (119,'BB Bcaa',89,119,113),
+       (200,'C4 Sport Light',115,200,114),
+       (201,'COR Gainer',350,201,115),
+       (202, 'Beef Carnivor',280,202,111),
+       (203,'Beef Carnivor Mass',380,203,115),
+       (204,'100% Whey Gold Standard',250,204,111),
+       (205,'High Serious Mass',420,205,115),
+       (206,'Whey Gainer BigM',150,206,115);
