@@ -193,13 +193,9 @@ values (18795, 'MET-RX'),
 (63240,'Nutrishake'),
 (47200,'FIZZIQUE'),
 (50192,'IWON'),
-(94675,'RED BULL'),
-(20345,'PURE PROTEIN'),
-(73601,'SMARTSHAKE'),
-(38504,'LAKANTO'),
 (19782,'SPROUT LIVING'),
 (85600,'SIETE DRAGONES');
 
-
-
+insert into ObjeticoFit
+values (34567, 'AumentoMusculo');
 
