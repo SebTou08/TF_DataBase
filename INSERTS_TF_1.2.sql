@@ -197,5 +197,9 @@ values (18795, 'MET-RX'),
 (85600,'SIETE DRAGONES');
 
 insert into ObjeticoFit
-values (34567, 'AumentoMusculo');
-
+values (34567, 'Perder Peso'),
+(85745,'Tonificar'),
+(23865,'Construir Musculo'),
+(65299,'Aumentar Energia'),
+(30986,'Mejorar Rendimiento'),
+(19256,'Definir Musculo');
