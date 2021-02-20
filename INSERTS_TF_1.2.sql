@@ -28,7 +28,7 @@ values (1,'DNI');
 
 insert into Persona
 values ('Sebastian', '2000/07/08', '996335059','Velasco Alvarado', 18,5,'sebaas14toulier@gmail.com','Toulier','Funes',1,70675089),
-       ('Rosa', '2000/07/18','961781356','Pepito Central',8,2,'Rosa@gmail.com','Pereda','NuÃ±ez',1,20124536),
+       ('Rosa', '2000/07/18','961781356','Pepito Central',8,2,'Rosa@gmail.com','Pereda','Nuñez',1,20124536),
        ('Pepito', '2000/05/11','963425875','Benavides',8,2,'ThuPepitoLokito@gmail.com','Jirafales','Chapotin',1,02154637),
        ('Juancito', '2005/09/11','963258745','Central',85,26,'JuanchitoMazNah@gmail.com','Torres','Torres',1,36025789),
        ('Roberta', '1996/11/26','996224052','Ayacucho',125,21,'Robertita_tita@gmail.com','Tello','Soto',1,42563258),
@@ -37,7 +37,7 @@ values ('Sebastian', '2000/07/08', '996335059','Velasco Alvarado', 18,5,'sebaas1
        ('Katherine', '1976/12/12','987654325','Argentina',564,2,'Keit_rb@gmail.com','revoredo','Lapadula',1,45782000),
        ('Jefferson', '1991/02/06','965558235','Grau',965,45,'Jeffry_fd@gmail.com','Quispe','Quispe',1,36520047),
        ('Sergio', '1997/07/12','987445857','Alameda sur',669,45,'sergirob@gmail.com','Huaman','Huaman',1,56585479),
-       ('Lionel', '1989/08/13','963585471','EspaÃ±ola',8,2,'LioMessi@gmail.com','Messi','Cuccittini',1,25368545),
+       ('Lionel', '1989/08/13','963585471','Española',8,2,'LioMessi@gmail.com','Messi','Cuccittini',1,25368545),
        ('Cristiano', '1985/11/29','996325004','Colmena',25,22,'cr7_cris@gmail.com','Ronaldo','Dos Santos',1,63589745),
        ('Nicolle', '2001/11/03','985330209','San Marcos',16,56,'NicGut@gmail.com','Gutierrez','Zavala',1,69857411) ;
 
@@ -179,5 +179,7 @@ values (9101,87455,70675089),
        (3536,47447,70675089),
        (3738,52482,02154637);
 
+insert into Marca
+values (18795, 'MET-RX');
 
 
