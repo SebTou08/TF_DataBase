@@ -39,7 +39,18 @@ values ('Sebastian', '2000/07/08', '996335059','Velasco Alvarado', 18,5,'sebaas1
        ('Sergio', '1997/07/12','987445857','Alameda sur',669,45,'sergirob@gmail.com','Huaman','Huaman',1,56585479),
        ('Lionel', '1989/08/13','963585471','Española',8,2,'LioMessi@gmail.com','Messi','Cuccittini',1,25368545),
        ('Cristiano', '1985/11/29','996325004','Colmena',25,22,'cr7_cris@gmail.com','Ronaldo','Dos Santos',1,63589745),
-       ('Nicolle', '2001/11/03','985330209','San Marcos',16,56,'NicGut@gmail.com','Gutierrez','Zavala',1,69857411) ;
+       ('Nicolle', '2001/11/03','985330209','San Marcos',16,56,'NicGut@gmail.com','Gutierrez','Zavala',1,69857411),
+	   ('Estephany','2001/04/05','989014416','Manuel Gomez',15,6,'estephanita21.04@gmail.com','Solier','Quispe',1,35664125),
+	   ('Cristina','1995/07/25','957410058','Alfonso Ugarte',128,20,'cristina_25@gmail.com','Arroyo','Nalvarte',1,72645510),
+	   ('Fabian','1997/12/20','988714250','Mexico',150,41,'fabisoto97_20@gmail.com','Soto','Rodriguez',1,25461175),
+	   ('Mery','2000/08/10','990145223','Aviación',72,12,'merysu@gmail.com','Suarez','Palomino',1,65481774),
+	   ('Samir','1998/11/04','987420458','Cuba',230,56,'samircito04@gmail.com','Lazaro','Valencia',1,45286057),
+	   ('Ariadna','1994/03/18','920140225','Guardia Civil',18,3,'ariperez1803@gmail.com','Perez','Romero',1,52369945),
+	   ('Javier','2000/05/28','980475620','Iquitos',98,40,'javierpar_2900@gmail.com','Paredes','Espinoza',1,40025622),
+	   ('Camila','1999/09/10','973347569','Ricardo Palma',874,57,'camil_1910@gmail.com','Arrieta','Fenandez',1,32865744),
+	   ('Sofia','1992/05/25','921856411','Husares de Junin',120,8,'sofi.torres25@gmail.com','Torres','Ruiz',1,28541579),
+	   ('Diego','1997/08/19','994040106','Garzón',72,21,'diegolan_08@gmail.com','Landaeta','Velarde',1,14952608),
+	   ('Samuel','2000/05/01','952044786','Tingo Maria',879,50,'samuelayala_00@gmail.com','Ayala','Zamora',1,56345210);
 
 insert into Activador
 values (2563, 70675089);
@@ -203,3 +214,5 @@ values (34567, 'Perder Peso'),
 (65299,'Aumentar Energia'),
 (30986,'Mejorar Rendimiento'),
 (19256,'Definir Musculo');
+
+insert 
