@@ -214,3 +214,5 @@ values (34567, 'Perder Peso'),
  insert into Metodo_Pago
  values (1,'Efectivo'),
 (2,'Tarjeta de Credito o Debito');
+
+
